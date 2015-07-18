@@ -13,6 +13,7 @@ But It's a PaaS(Platform as a service).
   * all `additional` could be search-able.
   * more conditional search mode.
   * the users and the developers face to face directly.
+  * integrate the third-party service easily. these changes on the third-party will be sent back.
   
 
 * slack 创新点:
@@ -25,6 +26,7 @@ But It's a PaaS(Platform as a service).
     * 将`上传附件`分为文件(file)，代码片段(text snippet)，文章(post)
     * 所有的附件均可被搜索。
     * 更多的条件式搜索
+    * 集成第三方服务很容易，用户在第三方服务上的变动会通知回沟通平台.
   * 让开发者和用户直接面对面交流
 
 [slack]: https://slack.com/
