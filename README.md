@@ -19,7 +19,7 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
 * Programming
   * Asynchronous, Stream and Architecture
     * [ReactiveX.io](http://ReactiveX.io)
-      * [cycle.js](http://cycle.js.org)
+      * [cycle.js](http://cycle.js.org): (human <--> computer)
     * [Gulp 4](https://github.com/gulpjs/gulp/tree/4.0) Keep It Simple and Stupid(KISS)
   * Stupid compiler and smart compiler
 

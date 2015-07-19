@@ -19,7 +19,8 @@
 * Programming(编程)
   * 异步编程，流与架构 (Asynchronous, Stream and Architecture)
     * [ReactiveX.io](http://ReactiveX.io)
-      * [cycle.js](http://cycle.js.org)
+      * [cycle.js](http://cycle.js.org):将人机交互抽象为两个函数(human, computer)的互动,
+        超赞. 但是将UI(DOM)变成了数据，这我就不知道是好是坏了，至少这不是其所擅长的。
     * [Gulp 4](https://github.com/gulpjs/gulp/tree/4.0) Keep It Simple and Stupid(KISS)
   * Stupid compiler and smart compiler
 
