@@ -8,6 +8,21 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
 
 * Services
   * [Slack](service/slack.md) - the analysis of [slack][slack]'s creation.
+  * **TODO**
+    * WYSIWYG Form Builder:
+      * Formstack
+      * TypeForm
+      * JotForm
+      * Wufoo
+      * [screendoor](http://www.dobt.co/screendoor/): Smarter online forms
+    * [IFTTT](https://ifttt.com/)
+* Programming
+  * Asynchronous, Stream and Architecture
+    * [ReactiveX.io](http://ReactiveX.io)
+      * [cycle.js](http://cycle.js.org)
+    * [Gulp 4](https://github.com/gulpjs/gulp/tree/4.0) Keep It Simple and Stupid(KISS)
+  * Stupid compiler and smart compiler
+
 
 
 ## License

@@ -7,6 +7,21 @@
 
 * Services(服务)
   * [Slack](service/slack.cn.md) - 分析[slack][slack]的创新点和它的竟品们
+  * **TODO**
+    * WYSIWYG Form Builder: 所见即所得的表单生成服务,不知道多少提供OpenAPI的
+      可以用于调查，邀请函(比如slack的邀请: http://nodeslackers.io/)
+      * TypeForm: 设计核心是简化虚拟线上投票环节，让创建投票和传播变得更为简便。
+      * Formstack
+      * JotForm
+      * SurveyMonkey
+      * [screendoor](http://www.dobt.co/screendoor/): Smarter online forms
+    * [IFTTT](https://ifttt.com/)
+* Programming(编程)
+  * 异步编程，流与架构 (Asynchronous, Stream and Architecture)
+    * [ReactiveX.io](http://ReactiveX.io)
+      * [cycle.js](http://cycle.js.org)
+    * [Gulp 4](https://github.com/gulpjs/gulp/tree/4.0) Keep It Simple and Stupid(KISS)
+  * Stupid compiler and smart compiler
 
 
 ## License
