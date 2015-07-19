@@ -6,10 +6,13 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
 
 * [Slack](slack.md) - the analysis of [slack][slack]'s creation.
 
-[slack]: https://slack.com/
-[contributing]: https://github.com/teamhost/creation/blob/master/CONTRIBUTING.md
-
-
 ## License
 
-[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)][CCBY4]
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License][CCBY4].
+
+
+[slack]: https://slack.com/
+[contributing]: https://github.com/teamhost/creation/blob/master/CONTRIBUTING.md
+[CCBY4]: https://creativecommons.org/licenses/by/4.0/
