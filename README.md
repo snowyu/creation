@@ -15,7 +15,9 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
     * JotForm
     * Wufoo
     * [screendoor](http://www.dobt.co/screendoor/): Smarter online forms
+  * [bip.io - Web Automation For People and Robots](https://bip.io/):Open Source, Rapidly create workflows with the cloud components you love, no programming required.
   * [IFTTT](https://ifttt.com/)
+  * [OpenBazaar](https://openbazaar.org/): OpenBazaar is an open source project to create a decentralized network for commerce online, using Bitcoin, that has no fees and cannot be censored.
 * Programming
   * Asynchronous, Stream and Architecture
     * [ReactiveX.io](http://ReactiveX.io)
