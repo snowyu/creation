@@ -6,21 +6,22 @@
 
 
 * Services(服务)
-  * [Slack](service/slack.cn.md) - 分析[slack][slack]的创新点和它的竟品们
-  * **TODO**
-    * WYSIWYG Form Builder: 所见即所得的表单生成服务,不知道多少提供OpenAPI的
-      可以用于调查，邀请函(比如slack的邀请: http://nodeslackers.io/)
-      * TypeForm: 设计核心是简化虚拟线上投票环节，让创建投票和传播变得更为简便。
-      * Formstack
-      * JotForm
-      * SurveyMonkey
-      * [screendoor](http://www.dobt.co/screendoor/): Smarter online forms
-    * [IFTTT](https://ifttt.com/)
+  * [Slack](service/slack.cn.md) - 分析[slack][slack]的创新点和它的竟品们，新鲜出笼，生态圈尚在发展之中
+  * [Github]() - 这虽然不是新东西，但它代表一个转折点，如今围绕它的生态圈已经完善，竟品丰富，已经存在完全开源的方案
+  * WYSIWYG Form Builder: 所见即所得的表单生成服务,不知道多少提供OpenAPI的
+    可以用于调查，邀请函(比如slack的邀请: http://nodeslackers.io/)，甚至工资单
+    我感觉的趋势是UI也在被服务化，成为一种服务。
+    * TypeForm: 设计核心是简化虚拟线上投票环节，让创建投票和传播变得更为简便。
+    * Formstack
+    * JotForm
+    * SurveyMonkey
+    * [screendoor](http://www.dobt.co/screendoor/): Smarter online forms
+  * [IFTTT](https://ifttt.com/)
 * Programming(编程)
   * 异步编程，流与架构 (Asynchronous, Stream and Architecture)
-    * [ReactiveX.io](http://ReactiveX.io)
+    * [ReactiveX.io](http://ReactiveX.io): 流式事件，让事件的抽象复用(Observable)到达一个新的高度
       * [cycle.js](http://cycle.js.org):将人机交互抽象为两个函数(human, computer)的互动,
-        超赞. 但是将UI(DOM)变成了数据，这我就不知道是好是坏了，至少这不是其所擅长的。
+        这点超赞。但是将UI(DOM)变成了数据，这我就不知道是好是坏了，至少这不是其所擅长的。
     * [Gulp 4](https://github.com/gulpjs/gulp/tree/4.0) Keep It Simple and Stupid(KISS)
   * Stupid compiler and smart compiler
 
