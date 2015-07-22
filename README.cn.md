@@ -22,6 +22,7 @@
   * [Gratipay - Gittip](https://gratipay.com): [Open Company][OpenCompany], 按周支付给信任的个体或团队. 培养感恩，慷慨和爱心的经济。
     * 只支持周期付款，不支持单次支付，（可以在网上开工资了）
     * http://inside.gratipay.com/: 如何运作gittip
+    * 简单的团队成员付工具(利用Gittip API): https://github.com/engineyard/gittip-collab
     * 实际客户方:
       1. 利用外包人员降低成本的公司
       1. 跨国跨地区的新型创业公司
