@@ -16,7 +16,17 @@
     * JotForm
     * SurveyMonkey
     * [screendoor](http://www.dobt.co/screendoor/): Smarter online forms
+  * [bip.io - Web Automation For People and Robots](https://bip.io/):Open Source, Rapidly create workflows with the cloud components you love, no programming required.
   * [IFTTT](https://ifttt.com/)
+  * [OpenBazaar](https://openbazaar.org/): OpenBazaar is an open source project to create a decentralized network for commerce online, using Bitcoin, that has no fees and cannot be censored.
+  * [Gratipay - Gittip](https://gratipay.com): [Open Company][OpenCompany], 按周支付给信任的个体或团队. 培养感恩，慷慨和爱心的经济。
+    * 只支持周期付款，不支持单次支付，（可以在网上开工资了）
+    * http://inside.gratipay.com/: 如何运作gittip
+    * 实际客户方:
+      1. 利用外包人员降低成本的公司
+      1. 跨国跨地区的新型创业公司
+      1. 各类基金会和慈善组织
+
 * Programming(编程)
   * 异步编程，流与架构 (Asynchronous, Stream and Architecture)
     * [ReactiveX.io](http://ReactiveX.io): 流式事件，让事件的抽象复用(Observable)到达一个新的高度
