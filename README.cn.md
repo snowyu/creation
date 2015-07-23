@@ -8,6 +8,14 @@
 * Services(服务)
   * [Slack](service/slack.cn.md) - 分析[slack][slack]的创新点和它的竟品们，新鲜出笼，生态圈尚在发展之中
   * [Github]() - 这虽然不是新东西，但它代表一个转折点，如今围绕它的生态圈已经完善，竟品丰富，已经存在完全开源的方案
+  * [travis](https://travis-ci.org) - 线上集成测试服务，不用多说，一直在用, push到github后， travis会自动运行CI
+    * [![Build Status](https://img.shields.io/travis/snowyu/property-manager.js/master.svg)](http://travis-ci.org/snowyu/property-manager.js)
+  * [Code Climate](https://codeclimate.com) 代码质量和测试代码覆盖率服务
+    * [Coveralls](https://coveralls.io/) 测试代码覆盖率服务(以前用过一次，现在似乎出问题了，上传测试报告后显示无数据，换用Code Climate)
+    * 和 travis 类似，支持badge图标:
+    * 代码质量评分(总5分): [![Code Climate](https://codeclimate.com/github/snowyu/property-manager.js/badges/gpa.svg)](https://codeclimate.com/github/snowyu/property-manager.js)
+    * 测试覆盖率:[![Test Coverage](https://codeclimate.com/github/snowyu/property-manager.js/badges/coverage.svg)](https://codeclimate.com/github/snowyu/property-manager.js/coverage)
+    * 在这个项目中刚用上的，效果还不错: https://github.com/snowyu/property-manager.js
   * WYSIWYG Form Builder: 所见即所得的表单生成服务,不知道多少提供OpenAPI的
     可以用于调查，邀请函(比如slack的邀请: http://nodeslackers.io/)，甚至工资单
     我感觉的趋势是UI也在被服务化，成为一种服务。
