@@ -9,6 +9,14 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
 * Services
   * [Slack](service/slack.md) - the analysis of [slack][slack]'s creation.
   * [Github]() - While this is not something new, but it represents a turning point, and now it's ecosystem has been improved, competitions abundant , fully open source solutions already exist.
+  * [Code Climate](service/codeclimate.md) - Code style quality and code coverage display services.
+    * [Code Climate Web Site][codeclimate]
+    * Support the badges:
+      * Code Quality Rating: [![Code Climate](https://codeclimate.com/github/snowyu/property-manager.js/badges/gpa.svg)](https://codeclimate.com/github/snowyu/property-manager.js)
+      * Code Test Coverage:[![Test Coverage](https://codeclimate.com/github/snowyu/property-manager.js/badges/coverage.svg)](https://codeclimate.com/github/snowyu/property-manager.js/coverage)
+    * Similar Services:
+      * [Coveralls](https://coveralls.io/) - code coverage display only.
+        * I've used once in the past, but it display no data now after upload lcov.info, use Code Climate instead.
   * [WYSIWYG Form Builder]():
     * Formstack
     * TypeForm
@@ -39,6 +47,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 [slack]: https://slack.com/
 [bacon.js]: https://github.com/baconjs/bacon.js
 [rxjs]: http://reactive-extensions.github.io/RxJS/
+[codeclimate]:https://codeclimate.com
 [contributing]: https://github.com/teamhost/creation/blob/master/CONTRIBUTING.md
 [OpenCompany]: http://www.opencompany.org
 [CCBY4]: https://creativecommons.org/licenses/by/4.0/
