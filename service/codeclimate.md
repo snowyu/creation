@@ -8,7 +8,7 @@
 1. From your Dashboard, mouse over the repository's name and click Settings.
 2. Select the Analysis tab.
 3. Click Enable Code Climate Platform.
-4. write the `.codeclimate.yml` file on the root of your repository.
+4. Write the `.codeclimate.yml` file on the root of your repository.
 
     ```yml
     # For a list of all available engines, see here:
@@ -67,15 +67,21 @@
     ```
    * Integrate codeclimate test to travis-ci.
 
-   ```bash
-   cat .travis.yml
-    script: npm run-script test-cov
-    after_success:
-      - "test -e ./coverage/lcov.info && npm install codeclimate-test-reporter && codeclimate-test-reporter < ./coverage/lcov.info"
+     ```bash
+     cat .travis.yml
+      script: npm run-script test-cov
+      after_success:
+        - "test -e ./coverage/lcov.info && npm install codeclimate-test-reporter && codeclimate-test-reporter < ./coverage/lcov.info"
       addons:
         code_climate:
           repo_token: YOUR_CODECLIMATE_REPO_TOKEN
-   ```
+     ```
+    It is recommended to encrypt that key. Assuming you have the Travis CI command line client installed, you can do it like this:
+
+     ```bash
+     travis encrypt YOUR_CODECLIMATE_REPO_TOKEN
+     ```
+    then copy-paste it to replace the value of repo_token.
 
 ### Add the badges link to your README file
 
