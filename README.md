@@ -49,6 +49,9 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
         * NanoWii - http://www.nanowii.com/
   * Robot
     * Simplebot - https://github.com/nodebotsau/simplebot
+  * IoT platform
+    * AllSeen -https://allseenalliance.org/
+    * OpenInterconnect - http://openinterconnect.org/
 * Programming
   * Asynchronous, Stream and Architecture
     * [ReactiveX.io](http://ReactiveX.io)
