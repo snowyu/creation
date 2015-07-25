@@ -33,6 +33,7 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
   * Main Board:
     * Arduino - https://www.arduino.cc/ - Sensor Controller
       * Microduino - https://www.microduino.cc/
+      * Netduino - http://www.netduino.com/netduino - an open-source electronics platform using the .NET Micro Framework.
     * Raspberry Pi - https://www.raspberrypi.org/ - HDMI box
       * CubieBoard - http://cubieboard.org/
     * WRTnode - http://wrtnode.com/ - Wifi Router
@@ -47,11 +48,53 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
       * KK2 - https://code.google.com/p/nextcopterplus/wiki/OpenAero2_Getting_Started
       * MultiWii(MWC) - http://www.multiwii.com/
         * NanoWii - http://www.nanowii.com/
-  * IoT platform
-    * AllSeen -https://allseenalliance.org/
-    * OpenInterconnect - http://openinterconnect.org/
   * Robot
     * Simplebot - https://github.com/nodebotsau/simplebot
+  * Software
+    * IoT Platform
+      * AllSeen -https://allseenalliance.org/
+      * OpenInterconnect - http://openinterconnect.org/
+      * IoT.js - http://github.com/Samsung/iotjs
+        IoT.js aims to provide inter-operable service platform in the world of IoT, based on web technology
+    * firmware
+      * JerryScript - https://github.com/Samsung/jerryscript
+        JerryScript is the lightweight JavaScript engine intended to run on a very constrained devices
+        * Only few kilobytes of RAM available to the engine (<64 KB RAM)
+        * Constrained ROM space for the code of the engine (<200 KB ROM)
+      * Forth - My Favorite MicroController Language
+        * FlashForth - http://flashforth.com/ - https://github.com/oh2aun/flashforth.git
+        * AmForth - http://amforth.sourceforge.net/
+        * avrforth - http://krue.net/avrforth/
+      * Microsoft .NET Micro Framework - https://netmf.github.io/
+        * at least 256 KBytes of flash and 64 KBytes of RAM. A memory footprint of about 300 KB
+        * Can run directly "on the metal" without an operating system
+        * Running on an OS is also possible
+        * ARM architecture processors (including ARM7, ARM9 and Cortex-M architectures)
+        * Analog Devices Blackfin
+      * OpenWRT -
+    * protocol
+      * MQTT - MQTT is a publish/subscribe messaging protocol designed for lightweight M2M communications. via IBM
+        * http://mqtt.org/
+        * [Specification](http://www.ibm.com/developerworks/webservices/library/ws-mqtt/index.html)
+        * https://github.com/adamvr/MQTT.js/
+      * CoAP - Constrained Application Protocol from the CoRE (Constrained Resource Environments) IETF group.
+        * http://coap.technology/
+        * Like HTTP, CoAP is a document transfer protocol. Unlike HTTP, CoAP is designed for the needs of constrained devices.
+        * CoAP runs over UDP
+        * [IP for Smart Objects Alliance](http://www.ipso-alliance.org/)
+        * [Specification](http://tools.ietf.org/html/draft-ietf-core-coap)
+        * Open source implementations:
+          * http://sourceforge.net/projects/libcoap/
+          * https://github.com/morkai/h5.coap
+          * http://www.contiki-os.org/
+      * Firmata - http://www.firmata.org/wiki/Main_Page
+      * CAN -
+    * IDE
+      * processing with Firmata
+      * node-red - https://github.com/node-red/node-red
+      * scratch
+      * snap
+
 * Programming
   * Asynchronous, Stream and Architecture
     * [ReactiveX.io](http://ReactiveX.io)
