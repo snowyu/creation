@@ -66,11 +66,53 @@
       * KK2 - https://code.google.com/p/nextcopterplus/wiki/OpenAero2_Getting_Started
       * MultiWii(MWC) - http://www.multiwii.com/
         * NanoWii - http://www.nanowii.com/
-  * IoT platform
-    * AllSeen -https://allseenalliance.org/ - 为了解决困扰物联网领域的协作性问题（不同领域和品牌的设备不能互相识别和协作）。高通创新中心推动的。主要成员：微软，LG，海尔，松下，夏普，索尼，思科，D-Link，TP-LINK，HTC，乐视TV等。AllSeen聯盟最終希望打造一個開放的軟體架構，可以讓家中的電視、機上盒、路由器、智慧照明系統和其他設備無縫地連接起來，並跨越iOS、Android、Windows 或 Mac 等不同的作業系統。
-    * OpenInterconnect - http://openinterconnect.org/ - 开放互联联盟，以开放性和参与性为侧重点，来自思科系统公司 (Cisco Systems Inc.)、英特尔公司 (Intel Corporation)、联发科 (MediaTek) 和三星电子有限公司 (Samsung Electronics Co., Ltd.) 的行业领导者将共同确定连接需求，以提高接入物联网 (IoT) 的数十亿台设备之间的互操作性。OIC致力于定义基于工业标准技术的公共通讯框架，规范个人计算和新兴IoT设备之间的无线连接和智能管理信息流程。
   * Robot
     * Simplebot - https://github.com/nodebotsau/simplebot
+  * Software
+    * IoT Platform
+      * AllSeen -https://allseenalliance.org/ - 为了解决困扰物联网领域的协作性问题（不同领域和品牌的设备不能互相识别和协作）。高通创新中心推动的。主要成员：微软，LG，海尔，松下，夏普，索尼，思科，D-Link，TP-LINK，HTC，乐视TV等。AllSeen聯盟最終希望打造一個開放的軟體架構，可以讓家中的電視、機上盒、路由器、智慧照明系統和其他設備無縫地連接起來，並跨越iOS、Android、Windows 或 Mac 等不同的作業系統。
+      * OpenInterconnect - http://openinterconnect.org/ - 开放互联联盟，以开放性和参与性为侧重点，来自思科系统公司 (Cisco Systems Inc.)、英特尔公司 (Intel Corporation)、联发科 (MediaTek) 和三星电子有限公司 (Samsung Electronics Co., Ltd.) 的行业领导者将共同确定连接需求，以提高接入物联网 (IoT) 的数十亿台设备之间的互操作性。OIC致力于定义基于工业标准技术的公共通讯框架，规范个人计算和新兴IoT设备之间的无线连接和智能管理信息流程。
+      * IoT.js - http://github.com/Samsung/iotjs
+        IoT.js aims to provide inter-operable service platform in the world of IoT, based on web technology
+    * firmware
+      * JerryScript - https://github.com/Samsung/jerryscript
+        轻量级的 JavaScript 引擎可运行与内存受限设备(如微控制器)
+        * (<64 KB RAM)
+        * (<200 KB ROM)
+      * Forth - My Favorite MicroController Language
+        * FlashForth - http://flashforth.com/ - https://github.com/oh2aun/flashforth.git
+        * AmForth - http://amforth.sourceforge.net/
+        * avrforth - http://krue.net/avrforth/
+      * Microsoft .NET Micro Framework - https://netmf.github.io/
+        * at least 256 KBytes of flash and 64 KBytes of RAM. A memory footprint of about 300 KB
+        * Can run directly "on the metal" without an operating system
+        * Running on an OS is also possible
+        * ARM architecture processors (including ARM7, ARM9 and Cortex-M architectures)
+        * Analog Devices Blackfin
+      * OpenWRT -
+    * protocol
+      * MQTT - MQTT is a publish/subscribe messaging protocol designed for lightweight M2M communications. via IBM
+        * http://mqtt.org/
+        * [Specification](http://www.ibm.com/developerworks/webservices/library/ws-mqtt/index.html)
+        * https://github.com/adamvr/MQTT.js/
+      * CoAP - Constrained Application Protocol from the CoRE (Constrained Resource Environments) IETF group.
+        * http://coap.technology/
+        * Like HTTP, CoAP is a document transfer protocol. Unlike HTTP, CoAP is designed for the needs of constrained devices.
+        * CoAP runs over UDP
+        * [IP for Smart Objects Alliance](http://www.ipso-alliance.org/)
+        * [Specification](http://tools.ietf.org/html/draft-ietf-core-coap)
+        * Open source implementations:
+          * http://sourceforge.net/projects/libcoap/
+          * https://github.com/morkai/h5.coap
+          * http://www.contiki-os.org/
+      * Firmata - http://www.firmata.org/wiki/Main_Page
+      * CAN -
+    * IDE
+      * processing with Firmata
+      * node-red - https://github.com/node-red/node-red
+      * scratch
+      * snap
+
 
 * Programming(编程)
   * 异步编程，流与架构 (Asynchronous, Stream and Architecture)
