@@ -47,11 +47,11 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
       * KK2 - https://code.google.com/p/nextcopterplus/wiki/OpenAero2_Getting_Started
       * MultiWii(MWC) - http://www.multiwii.com/
         * NanoWii - http://www.nanowii.com/
-  * Robot
-    * Simplebot - https://github.com/nodebotsau/simplebot
   * IoT platform
     * AllSeen -https://allseenalliance.org/
     * OpenInterconnect - http://openinterconnect.org/
+  * Robot
+    * Simplebot - https://github.com/nodebotsau/simplebot
 * Programming
   * Asynchronous, Stream and Architecture
     * [ReactiveX.io](http://ReactiveX.io)
