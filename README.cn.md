@@ -38,6 +38,39 @@
       1. 利用外包人员降低成本的公司
       1. 跨国跨地区的新型创业公司
       1. 各类基金会和慈善组织
+* [开源硬件](https://en.wikipedia.org/wiki/Open-source_hardware)
+  * 积木块
+    * MakeBlock - http://www.makeblock.cc/
+  * 主板
+    * Arduino - https://www.arduino.cc/ - 传感控制器
+      * Microduino - https://www.microduino.cc/
+      * Netduino - http://www.netduino.com/netduino - an open-source electronics platform using the .NET Micro Framework.
+    * Raspberry Pi - https://www.raspberrypi.org/ - 高清机顶盒
+      * CubieBoard - http://cubieboard.org/
+    * WRTnode - http://wrtnode.com/ - 无线路由器
+      * Vocore - http://vocore.io/
+    * HackRF - https://github.com/mossmann/hackrf - 软件定义无线电 Software defined Radio(SDR)
+      * GSM
+      * Bluetooth
+      * Wifi
+    * OpenPilot - https://www.openpilot.org/ - 飞行控制器(电脑自驾) Flight-controller
+      * CC3D - OpenPilot推出的低端控制器，价格便宜，秒杀大疆
+        * 飛行模式
+          * Attitude：遙控放桿後自動水平自穩
+          * Rate：飛機保持目前角度 加油門可暴力飛行
+          * AxisLock：飛機保持目前角度 如飛控偵測向左偏移五度則會向右偏移五度角修正
+          * WeakLeveling：同RATE 但緩慢自穩水平
+          * Horizon：同MWC的Horizon模式
+      * ArduPilot - http://ardupilot.com/
+      * Blog - http://www.rchacker.com/
+      * KK2 - https://code.google.com/p/nextcopterplus/wiki/OpenAero2_Getting_Started
+      * MultiWii(MWC) - http://www.multiwii.com/
+        * NanoWii - http://www.nanowii.com/
+  * IoT platform
+    * AllSeen -https://allseenalliance.org/ - 为了解决困扰物联网领域的协作性问题（不同领域和品牌的设备不能互相识别和协作）。高通创新中心推动的。主要成员：微软，LG，海尔，松下，夏普，索尼，思科，D-Link，TP-LINK，HTC，乐视TV等。AllSeen聯盟最終希望打造一個開放的軟體架構，可以讓家中的電視、機上盒、路由器、智慧照明系統和其他設備無縫地連接起來，並跨越iOS、Android、Windows 或 Mac 等不同的作業系統。
+    * OpenInterconnect - http://openinterconnect.org/ - 开放互联联盟，以开放性和参与性为侧重点，来自思科系统公司 (Cisco Systems Inc.)、英特尔公司 (Intel Corporation)、联发科 (MediaTek) 和三星电子有限公司 (Samsung Electronics Co., Ltd.) 的行业领导者将共同确定连接需求，以提高接入物联网 (IoT) 的数十亿台设备之间的互操作性。OIC致力于定义基于工业标准技术的公共通讯框架，规范个人计算和新兴IoT设备之间的无线连接和智能管理信息流程。
+  * Robot
+    * Simplebot - https://github.com/nodebotsau/simplebot
 
 * Programming(编程)
   * 异步编程，流与架构 (Asynchronous, Stream and Architecture)
