@@ -27,6 +27,28 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
   * [IFTTT](https://ifttt.com/)
   * [OpenBazaar](https://openbazaar.org/): OpenBazaar is an open source project to create a decentralized network for commerce online, using Bitcoin, that has no fees and cannot be censored.
   * [Gratipay - Gittip](https://gratipay.com): The First [Open Company][OpenCompany], give money every week to people and teams you believe in. The mission is to cultivate an economy of gratitude, generosity, and love.
+* [Open Source Hardware](https://en.wikipedia.org/wiki/Open-source_hardware)
+  * Building Blocks:
+    * MakeBlock - http://www.makeblock.cc/
+  * Main Board:
+    * Arduino - https://www.arduino.cc/ - Sensor Controller
+      * Microduino - https://www.microduino.cc/
+    * Raspberry Pi - https://www.raspberrypi.org/ - HDMI box
+      * CubieBoard - http://cubieboard.org/
+    * WRTnode - http://wrtnode.com/ - Wifi Router
+      * Vocore - http://vocore.io/
+    * HackRF - https://github.com/mossmann/hackrf - Software defined Radio(SDR)
+      * GSM
+      * Bluetooth
+      * Wifi
+    * OpenPilot - https://www.openpilot.org/ - Flight-controller
+      * ArduPilot - http://ardupilot.com/
+      * Blog - http://www.rchacker.com/
+      * KK2 - https://code.google.com/p/nextcopterplus/wiki/OpenAero2_Getting_Started
+      * MultiWii(MWC) - http://www.multiwii.com/
+        * NanoWii - http://www.nanowii.com/
+  * Robot
+    * Simplebot - https://github.com/nodebotsau/simplebot
 * Programming
   * Asynchronous, Stream and Architecture
     * [ReactiveX.io](http://ReactiveX.io)
