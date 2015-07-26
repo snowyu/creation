@@ -13,7 +13,7 @@
   * [Code Climate](service/codeclimate.md) - 代码质量和代码覆盖率显示服务.
     * [Code Climate Web Site][codeclimate]
     * 和 travis 类似，支持badge图标:
-    * 代码质量评分(总5分): [![Code Climate](https://codeclimate.com/github/snowyu/property-manager.js/badges/gpa.svg)](https://codeclimate.com/github/snowyu/property-manager.js)
+    * 代码质量评分(总4分): [![Code Climate](https://codeclimate.com/github/snowyu/property-manager.js/badges/gpa.svg)](https://codeclimate.com/github/snowyu/property-manager.js)
     * 测试覆盖率:[![Test Coverage](https://codeclimate.com/github/snowyu/property-manager.js/badges/coverage.svg)](https://codeclimate.com/github/snowyu/property-manager.js/coverage)
     * 在这个项目中刚用上的，效果还不错: https://github.com/snowyu/property-manager.js
     * 类似产品
