@@ -48,7 +48,7 @@ Promise = require 'bluebird'
 
 readFile = Promise.promisify (aPath, done) ->
   console.log 'readFile', aPath
-  if aPath != 'c' then done(new Error('no such file')) else done(null, 'ok')
+  if aPath != 'c' and aPath != 'e'  then done(new Error('no such file:'+aPath)) else done(null, aPath+'ok')
 
 files = ['a', 'b', 'c', 'd', 'e']
 
@@ -85,6 +85,88 @@ readFile b
 readFile c
 content= ok
 ```
+
+a simple functional abstraction for sequentially:
+
+这是map-reduce的思路,不过够绕脑袋瓜的。
+
+array.sum() vs array.reduce((a, b) => a + b, 0)
+
+```coffee
+
+
+seqAny = (aList, fn)->
+  _genReduceFn = (fn)->
+    (previous, item)->
+      previous = fn(item).catch(->) unless previous
+      previous
+
+  Promise.reduce aList, _genReduceFn(fn), null
+
+seqAny(files, readFile).then (result)->console.log 'seqAny=', result
+
+seqSome = (aList, total, fn)->
+  _genReduceFn = (fn)->
+    (previous, item)->
+      previous = previous.filter Boolean
+      if previous.length < total
+        previous = Promise.all previous.concat [fn(item).catch(->)]
+      previous
+  Promise.reduce aList, _genReduceFn(fn), []
+
+seqSome(files, 2, readFile).then (result)->console.log 'seqSome=', result
+
+sequence = (aList, fn)-> # execution all via sequence
+  # Promise.all 将执行所有的Promise,即使其中一个有错误，后面也会接着执行，如果有错误则报错。
+  sequentially = (fn)->
+    (previous, item)->
+      Promise.all previous.concat [fn(item)]
+
+  Promise.reduce aList, sequentially(fn), []
+
+sequence files, (i)->readFile(i).catch(->)
+.then (result)->console.log result
+
+```
+
+这是直接构造函数执行链的思路:
+
+```coffee
+waterfall = (tasks)->
+  current = Promise.cast()
+  for task in tasks
+    current = current.then(task)
+  current
+
+waterfall 返回所有函数的结果作为数组:
+
+waterfall = (tasks)->
+  current = Promise.cast()
+  result = []
+  for task in tasks
+    result.push current = current.then(task)
+  Promise.all result
+
+sequence 与waterfall不同之处在于不传递结果到下一个函数:
+
+sequence = (tasks)->
+  current = Promise.cast()
+  for task in tasks
+    current = current.thenReturn().then(task)
+  current.thenReturn()
+
+汇集结果到数组。
+
+sequence = (tasks)->
+  current = Promise.cast()
+  result = []
+  for task in tasks
+    result.push current = current.thenReturn().then(task)
+  Promise.all result
+
+
+```
+
 
 [promisesAplus]:https://promisesaplus.com/
 
