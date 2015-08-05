@@ -57,10 +57,14 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
       * IoT.js - http://github.com/Samsung/iotjs
         IoT.js aims to provide inter-operable service platform in the world of IoT, based on web technology
     * firmware
-      * JerryScript - https://github.com/Samsung/jerryscript
-        JerryScript is the lightweight JavaScript engine intended to run on a very constrained devices
-        * Only few kilobytes of RAM available to the engine (<64 KB RAM)
-        * Constrained ROM space for the code of the engine (<200 KB ROM)
+      * Javascript
+        * JerryScript - https://github.com/Samsung/jerryscript
+          JerryScript is the lightweight JavaScript engine intended to run on a very constrained devices
+          * Only few kilobytes of RAM available to the engine (<64 KB RAM)
+          * Constrained ROM space for the code of the engine (<200 KB ROM)
+        * [duktape](https://github.com/svaarala/duktape): run on platforms with 256kB flash and 96kB system RAM.
+        * [cesanta's v7](https://github.com/cesanta/v7): Compiled core is in 40 KB - 200 KB range.
+        * [Espruino](https://github.com/espruino/Espruino): 128kB Flash and 8kB RAM.
       * Forth - My Favorite MicroController Language
         * FlashForth - http://flashforth.com/ - https://github.com/oh2aun/flashforth.git
         * AmForth - http://amforth.sourceforge.net/
