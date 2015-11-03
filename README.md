@@ -64,6 +64,8 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
           * Constrained ROM space for the code of the engine (<200 KB ROM)
         * [duktape](https://github.com/svaarala/duktape): run on platforms with 256kB flash and 96kB system RAM.
         * [cesanta's v7](https://github.com/cesanta/v7): Compiled core is in 40 KB - 200 KB range.
+          * [smart.js](https://github.com/cesanta/smart.js)
+          * [Wifi ESP8266](http://espressif.com/en/products/esp8266/)
         * [Espruino](https://github.com/espruino/Espruino): 128kB Flash and 8kB RAM.
       * Forth - My Favorite MicroController Language
         * FlashForth - http://flashforth.com/ - https://github.com/oh2aun/flashforth.git
