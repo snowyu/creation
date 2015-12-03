@@ -34,8 +34,14 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
     * Arduino - https://www.arduino.cc/ - Sensor Controller
       * Microduino - https://www.microduino.cc/
       * Netduino - http://www.netduino.com/netduino - an open-source electronics platform using the .NET Micro Framework.
+      *
     * Raspberry Pi - https://www.raspberrypi.org/ - HDMI box
       * CubieBoard - http://cubieboard.org/
+    * ESP 8266 Wifi SoC
+      * [NodeMCU](http://www.nodemcu.com/): An open-source firmware and development kit that helps you to prototype your IOT product within a few Lua script lines
+        * NodeMCU 0.9 ESP-12 Module
+        * NodeMCU 1.0 ESP-12E Module
+      * [Arduino UNO R3 ESP8266 WiFi shiled(ESP-12E)](https://item.taobao.com/item.htm?id=521217451908)
     * WRTnode - http://wrtnode.com/ - Wifi Router
       * Vocore - http://vocore.io/
     * HackRF - https://github.com/mossmann/hackrf - Software defined Radio(SDR)
@@ -56,6 +62,11 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
       * OpenInterconnect - http://openinterconnect.org/
       * IoT.js - http://github.com/Samsung/iotjs
         IoT.js aims to provide inter-operable service platform in the world of IoT, based on web technology
+      * [OpenHAB](http://www.openhab.org/) - is a software for integrating different home automation systems and technologies into one single solution that allows over-arching automation rules and that offers uniform user interfaces (Java).
+        * [A web admin console for openHAB home automation](https://github.com/cdjackson/HABmin)
+        * http://www.instructables.com/id/Uber-Home-Automation-w-Arduino-Pi/
+        * https://github.com/openhab/openhab/wiki/Souliss-Arduino-based-SmartHome-Binding
+      * [Souliss](http://souliss.net/) - The open-source SmartHome framework to empower your Arduino and Android devices
     * firmware
       * Javascript
         * JerryScript - https://github.com/Samsung/jerryscript
