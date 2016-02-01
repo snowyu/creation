@@ -47,6 +47,34 @@
       * Netduino - http://www.netduino.com/netduino - an open-source electronics platform using the .NET Micro Framework.
     * Raspberry Pi - https://www.raspberrypi.org/ - 高清机顶盒
       * CubieBoard - http://cubieboard.org/
+    * [NL6621 ARM Wifi Soc](http://www.nufrontsoft.com/index.php/project/index/id/16.html)
+      * 160 MHz ARM Cortex-M3 with 448 KB of RAM. The module has 32 GPIOs, SPI, I2C, I2S digital audio.
+      * 802.11 b/g/n/p/e
+      * https://github.com/NufrontIOT/NL6621_StandardSDK
+      * https://www.gitbook.com/@nufrontiot
+    * [ESP 8266 Wifi SoC](https://anxinke.taobao.com/)
+      * http://bbs.ai-thinker.com/
+      * [NodeMCU](http://www.nodemcu.com/): An open-source firmware and development kit that helps you to prototype your IOT product within a few Lua script lines
+        * NodeMCU 0.9 ESP-12 Module
+        * NodeMCU 1.0 ESP-12E Module
+      * [Arduino UNO R3 ESP8266 WiFi shiled(ESP-12E)](https://item.taobao.com/item.htm?id=521217451908)
+      * ESP8266选型特点：
+        1. ESP-01：PCB天线，经过匹配，距离做到空旷400米左右，简单易用
+        2. ESP-02：贴片封装，适合提交限制，天线可以用IPX头引出壳体。
+        3. ESP-03：贴片封装，内置陶瓷天线工艺，所有可用IO引出。
+        4. ESP-04：贴片封装，客户可自定义天线类型，灵活设计，所有可IO引出。
+        5. ESP-05：贴片封装，只引出串口和RST脚，体积小，天线可外置。
+        6. ESP-06：底贴工艺，所有IO口引出，带金属屏蔽壳，可过FCC  CE认证，推荐使用。
+        7. ESP-07：半孔贴片工艺，所有IO引出，带金属屏蔽壳，可过FCC  CE认证，可外接IPX天线，也可用内置陶瓷天线。
+        8. ESP-08：同ESP-07，不同在于天线形式客户可自己定义。
+        9. ESP-09：超小体积封装，只有10*10毫米，四层板工艺!1M字节。
+        10. ESP-10：贴片接口，窄体设计，10毫米宽，适合做灯带控制器。
+        11. ESP-11：贴片接口，陶瓷天线，小体积。
+        12. ESP-12：半孔贴片工艺,全IO引出，带金属屏蔽壳，已过FCC &CE认证，内置PCB板载天线，4M字节Flash。
+        13. ESP-12E:在ESP-12的基础上多引出6个脚，抗干扰能力大大增强，
+        14. ESP-12F：突破性的设计，又有新突破。全新四层板设计，天线全新改版 射频性能优化，相较于ESP-12E的通讯距离增加30%-50%！半孔贴片工艺,全IO引出，带金属屏蔽壳，已过FCC &CE&RoHS认证，内置PCB板载天线，4M字节Flash。
+        14. ESP-13: 全新4层板设计，半孔贴片工艺,全IO引出，带金属屏蔽壳，天线重新设计，射频性能更好！
+        15. ESP14: 以ESP-12E为设计原型，内部增加了STM8S003F3P6，并通过STM8S对ESP8266进行AT指令控制.该模块就是一个完整的STM8S的单片机，可以通过STM8单片机编程进行WIFI操作。
     * WRTnode - http://wrtnode.com/ - 无线路由器
       * Vocore - http://vocore.io/
     * HackRF - https://github.com/mossmann/hackrf - 软件定义无线电 Software defined Radio(SDR)

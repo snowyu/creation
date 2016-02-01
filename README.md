@@ -37,6 +37,11 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
       *
     * Raspberry Pi - https://www.raspberrypi.org/ - HDMI box
       * CubieBoard - http://cubieboard.org/
+    * [NL6621 ARM Wifi Soc](http://www.nufrontsoft.com/index.php/project/index/id/30.html)
+      * 160 MHz ARM Cortex-M3 with 448 KB of RAM. The module has 32 GPIOs, SPI, I2C, I2S digital audio.
+      * 802.11 b/g/n/p/e
+      * https://github.com/NufrontIOT/NL6621_StandardSDK
+      * https://www.gitbook.com/@nufrontiot :Chinese Books
     * ESP 8266 Wifi SoC
       * [NodeMCU](http://www.nodemcu.com/): An open-source firmware and development kit that helps you to prototype your IOT product within a few Lua script lines
         * NodeMCU 0.9 ESP-12 Module
