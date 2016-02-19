@@ -7,8 +7,9 @@ We talk about a variety of creation/innovation and analysis here.
 Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before contributing.
 
 * Services
+  * [sandstorm](https://sandstorm.io) - Sandstorm lets you run your own server and install apps like EtherCalc, GitLab, Etherpad, Wekan, and more as easily as you'd install apps on your phone.
   * [Slack](service/slack.md) - the analysis of [slack][slack]'s creation.
-  * [Github]() - While this is not something new, but it represents a turning point, and now it's ecosystem has been improved, competitions abundant , fully open source solutions already exist.
+  * [Github](https://github.com) - While this is not something new, but it represents a turning point, and now it's ecosystem has been improved, competitions abundant , fully open source solutions already exist.
   * [Code Climate](service/codeclimate.md) - Code style quality and code coverage display services.
     * [Code Climate Web Site][codeclimate]
     * Support the badges:
