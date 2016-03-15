@@ -99,7 +99,9 @@
   * Software
     * IoT Platform
       * AllSeen -https://allseenalliance.org/ - 为了解决困扰物联网领域的协作性问题（不同领域和品牌的设备不能互相识别和协作）。高通创新中心推动的。主要成员：微软，LG，海尔，松下，夏普，索尼，思科，D-Link，TP-LINK，HTC，乐视TV等。AllSeen聯盟最終希望打造一個開放的軟體架構，可以讓家中的電視、機上盒、路由器、智慧照明系統和其他設備無縫地連接起來，並跨越iOS、Android、Windows 或 Mac 等不同的作業系統。
-      * OpenInterconnect - http://openinterconnect.org/ - 开放互联联盟，以开放性和参与性为侧重点，来自思科系统公司 (Cisco Systems Inc.)、英特尔公司 (Intel Corporation)、联发科 (MediaTek) 和三星电子有限公司 (Samsung Electronics Co., Ltd.) 的行业领导者将共同确定连接需求，以提高接入物联网 (IoT) 的数十亿台设备之间的互操作性。OIC致力于定义基于工业标准技术的公共通讯框架，规范个人计算和新兴IoT设备之间的无线连接和智能管理信息流程。
+      * AllSeen - https://allseenalliance.org/
+      * OCF - http://openconnectivity.org/
+        * OpenInterconnect - http://openinterconnect.org/ - 开放互联联盟，以开放性和参与性为侧重点，来自思科系统公司 (Cisco Systems Inc.)、英特尔公司 (Intel Corporation)、联发科 (MediaTek) 和三星电子有限公司 (Samsung Electronics Co., Ltd.) 的行业领导者将共同确定连接需求，以提高接入物联网 (IoT) 的数十亿台设备之间的互操作性。OIC致力于定义基于工业标准技术的公共通讯框架，规范个人计算和新兴IoT设备之间的无线连接和智能管理信息流程。
       * IoT.js - http://github.com/Samsung/iotjs
         IoT.js aims to provide inter-operable service platform in the world of IoT, based on web technology
     * firmware

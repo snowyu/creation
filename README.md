@@ -64,8 +64,9 @@ Contribution are welcome. Please read [CONTRIBUTING.md][contributing] before con
     * Simplebot - https://github.com/nodebotsau/simplebot
   * Software
     * IoT Platform
-      * AllSeen -https://allseenalliance.org/
-      * OpenInterconnect - http://openinterconnect.org/
+      * AllSeen - https://allseenalliance.org/
+      * OCF - http://openconnectivity.org/
+        * The next [OpenInterconnect](http://openinterconnect.org/)
       * IoT.js - http://github.com/Samsung/iotjs
         IoT.js aims to provide inter-operable service platform in the world of IoT, based on web technology
       * [OpenHAB](http://www.openhab.org/) - is a software for integrating different home automation systems and technologies into one single solution that allows over-arching automation rules and that offers uniform user interfaces (Java).
