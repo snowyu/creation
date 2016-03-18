@@ -28,9 +28,9 @@ Promise是简化异步编程的重要概念。这篇文章介绍得不错：http
   ```
 
 
-Promise API 标准存在多个提案，目前看啦，[Promises/A+][promisesAplus] 已经正在成为事实上的标准。
+Promise API 标准存在多个提案，目前看来，[Promises/A+][promisesAplus] 已经正在成为事实上的标准。
 
-Bluebird 号称速度是所有 Promise 库里最快的 [Promises/A+][promisesAplus] 实现，里面做了许多的扩展。 想知道内部实现，也许阅读这个[yaku](https://github.com/ysmood/yaku)简单的实现（coffee-script)。
+Bluebird 号称速度是所有 Promise 库里最快的 [Promises/A+][promisesAplus] 实现，里面做了许多的扩展。 想知道内部实现，可以阅读这个[yaku](https://github.com/ysmood/yaku)简单的实现（coffee-script)。
 
 
 
@@ -64,8 +64,9 @@ readFile b
 readFile c
 readFile d
 readFile e
-content= ok
+content= x ok
 ```
+注：这个 `x` 表示可能是 'c'或者'e'。
 
 那么如何做到顺序执行？可以用reduce实现：
 
@@ -83,18 +84,16 @@ Promise.reduce files, (content, file)->
 readFile a
 readFile b
 readFile c
-content= ok
+content= c ok
 ```
 
 a simple functional abstraction for sequentially:
 
 这是map-reduce的思路,不过够绕脑袋瓜的。
 
-array.sum() vs array.reduce((a, b) => a + b, 0)
+`array.sum()` vs `array.reduce((a, b) => a + b, 0)`
 
 ```coffee
-
-
 seqAny = (aList, fn)->
   _genReduceFn = (fn)->
     (previous, item)->
