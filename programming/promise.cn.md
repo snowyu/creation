@@ -36,8 +36,8 @@ Bluebird 号称速度是所有 Promise 库里最快的 [Promises/A+][promisesApl
 
 ### Promise.any and Promise.some
 
-* some是其中一些promise成功返回，可以指定个数。返回结果为一个数组.
-* any是任意一个promise成功返回，是some个数固定为1的结果，另外它的返回结果是一个单值，不是数组。
+* `some`是其中一些promise成功返回，可以指定个数。返回结果为一个数组.
+* `any` 是任意一个promise成功返回，是some个数固定为1的结果，另外它的返回结果是一个单值，不是数组。
 
 注意：它们是向**所有**的promises同时发起执行请求(并行)，但是只取最先返回结果的。不是顺序执行，
 直到得到成功结果的个数，就不继续了。
