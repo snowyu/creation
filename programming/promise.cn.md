@@ -96,9 +96,13 @@ content= c ok
 更多的细节参见我写的[promise-sequence][promise-sequence]。
 a simple functional abstraction for sequentially:
 
-这是map-reduce的思路,不过够绕脑袋瓜的。
+下面这是map-reduce的思路用在数组的所有元素求和上,不过够绕脑袋瓜的：
 
-`array.sum()` 等价于 `array.reduce(((a, b) => a + b), 0)`
+```coffee
+Array::sum = -> @reduce ((a,b)->a+b), 0
+[1,2,3].sum()
+# 6
+```
 
 ```coffee
 seqAny = (aList, fn)->
