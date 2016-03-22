@@ -98,7 +98,7 @@ a simple functional abstraction for sequentially:
 
 这是map-reduce的思路,不过够绕脑袋瓜的。
 
-`array.sum()` vs `array.reduce((a, b) => a + b, 0)`
+`array.sum()` 等价于 `array.reduce(((a, b) => a + b), 0)`
 
 ```coffee
 seqAny = (aList, fn)->
