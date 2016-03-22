@@ -68,7 +68,8 @@ content= x ok
 ```
 注：这个 `x` 表示可能是 'c'或者'e'。
 
-那么如何做到顺序执行？可以用reduce实现：
+但是，在某些特定场合，我们并不希望并发执行读文件操作，而是有次序的执行。
+那么如何做到顺序执行（sequence）？这个时候，可以用reduce实现：
 
 ```coffee
 Promise.reduce files, (content, file)->
