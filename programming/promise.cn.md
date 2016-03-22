@@ -33,8 +33,9 @@ Promise API 标准存在多个提案，目前看来，[Promises/A+][promisesAplu
 Bluebird 号称速度是所有 Promise 库里最快的 [Promises/A+][promisesAplus] 实现，里面做了许多的扩展。 想知道内部实现，可以阅读这个[yaku](https://github.com/ysmood/yaku)简单的实现（coffee-script)。
 
 
-
 ### Promise.any and Promise.some
+
+并行的 [Promise.any][promise.any] 和 [Promise.some][promise.some]
 
 * `some`是其中一些promise成功返回，可以指定个数。返回结果为一个数组.
 * `any` 是任意一个promise成功返回，是some个数固定为1的结果，另外它的返回结果是一个单值，不是数组。
@@ -68,6 +69,8 @@ content= x ok
 ```
 注：这个 `x` 表示可能是 'c'或者'e'。
 
+### 顺序执行的 `some` 和 `any`
+
 但是，在某些特定场合，我们并不希望并发执行读文件操作，而是有次序的执行。
 那么如何做到顺序执行（sequence）？
 
@@ -90,6 +93,7 @@ readFile c
 content= c ok
 ```
 
+更多的细节参见我写的[promise-sequence][promise-sequence]。
 a simple functional abstraction for sequentially:
 
 这是map-reduce的思路,不过够绕脑袋瓜的。
@@ -172,4 +176,7 @@ sequence = (tasks)->
 
 [promisesAplus]:https://promisesaplus.com/
 [promise.reduce]:http://bluebirdjs.com/docs/api/promise.reduce.html
+[promise.some]:http://bluebirdjs.com/docs/api/promise.some.html
+[promise.any]:http://bluebirdjs.com/docs/api/promise.any.html
+[promise-sequence]:https://github.com/snowyu/promise-sequence.js
 
